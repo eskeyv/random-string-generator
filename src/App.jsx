@@ -1,12 +1,12 @@
 import React from 'react'
+import Navbar from './components/Navbar'
 import Content from './components/Content'
-import { Footer } from './components/Footer'
 
 const App = () => {
   return (
-    <div>
+    <div className='p-5'>
+      <Navbar />
       <Content />
-      <Footer />
     </div>
   )
 }
